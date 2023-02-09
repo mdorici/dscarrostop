@@ -1,0 +1,28 @@
+.dsct-page-main h3 {
+    font-size: 32px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--dsct-color-font-secondary);
+}
+
+#dsct-comment-section {
+    background-color: var(--dsct-color-bg-quaternary);
+    padding: 25px 20px;
+}
+
+#dsct-product-section {
+    background-color: var(--dsct-color-bg-primary);
+}
+
+@media(max-width: 576px) {
+
+    .dsct-page-main h3 {
+        font-size: 20px;
+    }
+
+    #dsct-comment-section h3 {
+        font-size: 20px;
+    }
+
+}

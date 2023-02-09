@@ -1,0 +1,15 @@
+footer {
+    padding: 0 20px;
+    background-color: var(--dsct-color-bg-secondary);
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    color: var(--dsct-color-font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}

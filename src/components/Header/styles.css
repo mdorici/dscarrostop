@@ -1,0 +1,15 @@
+header {
+    padding: 0 20px;
+    background-color: var(--dsct-color-bg-secondary);
+    height: 70px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--dsct-color-font-primary);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+.dsct-card-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 25px 20px;
+    background-color: var(--dsct-color-bg-tertiary);
+    border: 1px solid var(--dsct-color-bg-secondary);
+}
+
+.dsct-card-product img {
+    padding: 10px;
+    width: 390px;
+    height: 292px;
+    margin-bottom: 10px;
+}
+
+.dsct-card-product p {
+    font-size: 16px;
+    color: var(--dsct-color-font-secondary); 
+}
+
+@media(max-width: 576px) {
+
+    .dsct-card-product img {
+        width: 260px;
+        height: 190px;
+    }
+
+}
