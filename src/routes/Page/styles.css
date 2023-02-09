@@ -13,6 +13,7 @@
 
 #dsct-product-section {
     background-color: var(--dsct-color-bg-primary);
+    
 }
 
 @media(max-width: 576px) {
