@@ -19,8 +19,6 @@
 .dsct-card-product p {
     font-size: 16px;
     color: var(--dsct-color-font-secondary);
-    
-   
 }
 
 @media(max-width: 768px) {
